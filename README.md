@@ -3,7 +3,9 @@ It is a multimodal multi document RAG. Handles pdf, docx, xlsx, csv and image fo
 
 Initial experimentation/rough work with huugingface open source models in google collab can be found in this : 
 https://colab.research.google.com/drive/1IWITZ6Ye-CIfMLMM96V0OhPhJpRtiFqp?usp=sharing
-This collab has more was intended to design a more complex and customised RAG system with multi-vector retrieval and handling images, table in Pdfs, images through image descriptions using LLMs and further steps for better embedding and retrieval.
+
+- This collab has more was intended to design a more complex and customised RAG system with multi-vector retrieval and handling images, table in Pdfs, images through image descriptions using LLMs and further steps for better embedding and retrieval. 
+- The idea in google collab rough rough was to experiment with multi-dcoument manual ingestion and running ETL pipeline for semi-structired and structured data of multiple complex documents and datasets - for retrieval. 
 
 
 
