@@ -4,7 +4,7 @@ It is a multimodal multi document RAG. Handles pdf, docx, xlsx, csv and image fo
 
 ## The MAIN app uses : 
 1. streamlit
-2. gemini-pro-flash for convesation and gemini embeddings model
+2. gemini-flash for convesation and gemini embeddings model through gemini api
 3. Faiss for vector store
 4. Langchain
 5. tesseract-ocr
