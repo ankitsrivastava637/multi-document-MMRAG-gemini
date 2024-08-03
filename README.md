@@ -2,7 +2,7 @@
 It is a multimodal multi document RAG. Handle pdf, docx, xlsx, csv and image formats using gemini-flash
 
 
-## Tests : 
+## Tests Screenshots : 
 ![image](https://github.com/user-attachments/assets/99d61911-748a-4be6-b52d-c21971e6030d)
 
 ![image](https://github.com/user-attachments/assets/07432d93-a4e5-49a9-91c7-e4ab43aa53ce)
