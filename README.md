@@ -1,5 +1,5 @@
 # Multi-document-MMRAG-gemini
-It is a multimodal multi document RAG. Handle pdf, docx, xlsx, csv and image formats using gemini-flash
+It is a multimodal multi document RAG. Handle pdf, docx, xlsx, csv and image formats using gemini-flash for real-estate sector
 
 
 ## Tests Screenshots : 
