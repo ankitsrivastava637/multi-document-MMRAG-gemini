@@ -10,6 +10,14 @@ It is a multimodal multi document RAG. Handles pdf, docx, xlsx, csv and image fo
 5. tesseract-ocr
 and other librarues mentioned in reuirements.txt 
 
+
+## SYSTEM ARCHITECTURAL FLOW :
+
+![diagram-export-8-4-2024-1_17_22-PM](https://github.com/user-attachments/assets/c1bd389c-761b-46fc-a0f0-4d64fa2ee5ab)
+
+
+
+
 Some Initial experimentation/rough work with huugingface open source models in google collab can be found in this : 
 https://colab.research.google.com/drive/1IWITZ6Ye-CIfMLMM96V0OhPhJpRtiFqp?usp=sharing
 
@@ -29,4 +37,12 @@ https://colab.research.google.com/drive/1IWITZ6Ye-CIfMLMM96V0OhPhJpRtiFqp?usp=sh
 ![image](https://github.com/user-attachments/assets/1df8377a-7b9c-4474-a5fa-5a756c757d64)
 
 ![image](https://github.com/user-attachments/assets/6a656752-4e9c-4738-9a92-3bd3a11956a5)
+
+
+
+## FUNCTION flowchart : 
+
+![diagram-export-8-4-2024-12_56_04-PM](https://github.com/user-attachments/assets/338c941b-c7e1-42b2-bc47-49f40c364007)
+
+
 
