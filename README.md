@@ -10,6 +10,18 @@ It is a multimodal multi document RAG. Handles pdf, docx, xlsx, csv and image fo
 5. tesseract-ocr
 and other librarues mentioned in reuirements.txt 
 
+## Contents
+- [Introduction](#introduction)
+- [The MAIN app uses](#the-main-app-uses)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Access the Application](#access-the-application)
+  - [Additional Tips](#additional-tips)
+- [System Architectural Flow](#system-architectural-flow)
+- [Rough Work](#rough-work)
+- [Tests Screenshots](#tests-screenshots)
+- [Function Flowchart](#function-flowchart)
 
 ## Getting Started
 
