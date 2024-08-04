@@ -16,6 +16,8 @@ and other librarues mentioned in reuirements.txt
   - [Installation](#installation)
   - [Access the Application](#access-the-application)
   - [Additional Tips](#additional-tips)
+- [Few improvements to be considered in future](#few-improvements-to-be-considered-in-future)
+- [Some useful Resources](#some-useful-resources)    
 - [System Architectural Flow](#system-architectural-flow)
 - [Rough Work](#rough-work)
 - [Tests Screenshots](#tests-screenshots)
