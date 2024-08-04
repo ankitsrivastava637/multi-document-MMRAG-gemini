@@ -31,6 +31,7 @@ Follow these steps to clone and run the application.
 
 - Python 3.6 or higher
 - `git` installed on your machine
+- google's gemini api key
 
 ### Installation
 
@@ -72,8 +73,9 @@ Follow these steps to clone and run the application.
     ```bash
     pip install -r requirements.txt
     ```
+5. **Set Google's gemini api key**    
 
-5. **Run the Streamlit Application**
+6. **Run the Streamlit Application**
 
     Start the Streamlit application:
     ```bash
