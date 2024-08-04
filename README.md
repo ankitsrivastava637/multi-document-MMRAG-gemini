@@ -11,8 +11,6 @@ It is a multimodal multi document RAG. Handles pdf, docx, xlsx, csv and image fo
 and other librarues mentioned in reuirements.txt 
 
 ## Contents
-- [Introduction](#introduction)
-- [The MAIN app uses](#the-main-app-uses)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -93,6 +91,31 @@ Once the application is running, you can access it by opening the URL provided i
 - Check the repository's README file for any additional setup instructions or configuration options specific to the application.
 
 By following these steps, you should be able to clone and run the Streamlit application successfully.
+
+## Few improvements to be considered in future : 
+
+- Better feature extraction from semi-structured data in PDFs, Docx, Images, xlsx and csv. 
+- For documents, image description using LLM and then storing it's vector embeddings for retrieval will enrich data for retrieval. Tablular data in documents can be further analyzed using LLM before storing. Graph knowledge base and GraphRAG https://microsoft.github.io/graphrag/ can be very helpful for complex queries to handle entity and complex relationships understanding.
+- For xlsx and csv - structured data, if there is general consistency in categories of columns in all of real estate client data. Then considering a custom approach to for data analysis(may be a agentic approach) can be considered while retreival. In such a case a query analyser / query router (may be using LLM) can analyse type of query : 1. Factual, 2. statistical 3.Relationship-entity query. 
+- Better data cleaning, transformation and storage strategy for structured data.     
+- Better domain adaptation to Real Estate for specific client. More data for custom fine-tuning and if possible synthetic data generation for fine-tuning a LLM model for feature extraction can be considered.  
+- Also design should needs modification where a particular client is only able to have answer related to his own private data and not other client's data. uuid generation for each unique user id and it's use in prompt for specific client's query / restricted q&a using modification using userid in code design can help in this.
+- Better tools like unstructured.io for ETL pipeline of documents can be done.
+- Development of interface for ingesting data for ETL pipline as seperate interface. To be decoupled from chat interface.
+- Using soft prompt tuining for better prompt engineering can be done. New frameworks like DSPy can also be considered https://dspy-docs.vercel.app/ for advanced techniques for RAG.
+- Ensure security using tools like chatbot gaurdrails using tools like NeMo Guardrails : https://blogs.nvidia.com/blog/ai-chatbot-guardrails-nemo/
+- Use better framework for backend(like FastAPI) and frontend(like React)
+  
+## Some useful Resources : 
+
+- https://www.promptingguide.ai/
+- https://unstructured.io/
+- https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_Structured_RAG.ipynb
+- Tracking of all top AI-LLM-RAG-Models and resources : https://huyenchip.com/llama-police
+- Building A Generative AI Platform - https://huyenchip.com/2024/07/25/genai-platform.html - This one is one of the best robust guide for architecture of generative AI platform.
+- Langchain
+- https://github.com/infiniflow/ragflow
+
 
 
 ## SYSTEM ARCHITECTURAL FLOW :
