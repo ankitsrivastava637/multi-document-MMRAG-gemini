@@ -11,6 +11,76 @@ It is a multimodal multi document RAG. Handles pdf, docx, xlsx, csv and image fo
 and other librarues mentioned in reuirements.txt 
 
 
+## Getting Started
+
+Follow these steps to clone and run the application.
+
+### Prerequisites
+
+- Python 3.6 or higher
+- `git` installed on your machine
+
+### Installation
+
+1. **Clone the Repository**
+
+    Open your terminal and run the following command:
+    ```bash
+    git clone https://github.com/ankitsrivastava637/multi-document-MMRAG-gemini.git
+    ```
+
+2. **Navigate to the Repository Directory**
+
+    Change your current directory to the cloned repository:
+    ```bash
+    cd multi-document-MMRAG-gemini
+    ```
+
+3. **Set Up a Virtual Environment** (Optional but Recommended)
+
+    Create a virtual environment to manage dependencies:
+    ```bash
+    python -m venv venv
+    ```
+    Activate the virtual environment:
+
+    - On Windows:
+      ```bash
+      .\venv\Scripts\activate
+      ```
+
+    - On macOS and Linux:
+      ```bash
+      source venv/bin/activate
+      ```
+
+4. **Install Dependencies**
+
+    Install the required dependencies using `pip`:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. **Run the Streamlit Application**
+
+    Start the Streamlit application:
+    ```bash
+    streamlit run app.py
+    ```
+    This command will launch the Streamlit application in your default web browser. If the main script has a different name, replace `app.py` with the appropriate file name.
+
+### Access the Application
+
+Once the application is running, you can access it by opening the URL provided in the terminal (typically `http://localhost:8501`) in your web browser.
+
+### Additional Tips
+
+- If there are environment variables required by the application, make sure to set them up in your environment or create a `.env` file in the project directory.
+- Check the repository's README file for any additional setup instructions or configuration options specific to the application.
+
+By following these steps, you should be able to clone and run the Streamlit application successfully.
+
+
 ## SYSTEM ARCHITECTURAL FLOW :
 
 ![diagram-export-8-4-2024-1_17_22-PM](https://github.com/user-attachments/assets/c1bd389c-761b-46fc-a0f0-4d64fa2ee5ab)
