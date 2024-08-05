@@ -1,4 +1,4 @@
-# Multi-document-MMRAG-gemini Application
+# Multi-document-MMRAG-gemini Application - CHECK MASTER BRANCH
 It is a multimodal multi document RAG. Handle pdf, docx, xlsx, csv and image formats using gemini-flash for real-estate sector
 
 
